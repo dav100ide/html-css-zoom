@@ -25,6 +25,10 @@ i {
 .fluid-img {
   max-width: 100%;
 }
+.inline-list {
+  list-style: none;
+  display: flex;
+}
 /*=====================
     buttons
 =======================*/
@@ -98,4 +102,20 @@ main.flex-box {
 footer {
   height: 80px;
   background-color: #252525;
+}
+footer.flex-box {
+  justify-content: space-between;
+  align-items: center;
+}
+footer > .device-control,
+footer > .exit {
+  width: 15%;
+}
+
+footer > .main-buttons {
+  width: calc(100% - 30%);
+}
+
+footer .inline-list {
+  justify-content: center;
 }

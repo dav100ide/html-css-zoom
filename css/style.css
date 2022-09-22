@@ -106,7 +106,6 @@ main.flex-box {
 =====================*/
 footer {
   height: 80px;
-  padding: 0 15px;
   background-color: #252525;
 }
 footer.flex-box {
@@ -125,4 +124,13 @@ footer > .main-buttons {
 footer .inline-list {
   justify-content: center;
   align-items: center;
+}
+footer .exit {
+  text-align: right;
+}
+
+#exit-button {
+  color: red;
+  line-height: 80px; /*alto esattamente come il footer*/
+  padding: 0 15px;
 }

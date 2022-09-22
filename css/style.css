@@ -37,14 +37,19 @@ i {
 }
 
 .btn:hover {
-  opacity: 0.8;
+  background-color: #474747;
 }
 .btn-primary {
+  margin-inline: 15px;
+  text-align: center;
 }
 .btn-secondary {
   padding: 2px;
   background-color: #252525;
   border-radius: 5px;
+}
+.btn-green {
+  color: green;
 }
 
 /*=====================
@@ -101,6 +106,7 @@ main.flex-box {
 =====================*/
 footer {
   height: 80px;
+  padding: 0 15px;
   background-color: #252525;
 }
 footer.flex-box {
@@ -118,4 +124,5 @@ footer > .main-buttons {
 
 footer .inline-list {
   justify-content: center;
+  align-items: center;
 }
